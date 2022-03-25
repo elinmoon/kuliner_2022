@@ -252,3 +252,290 @@ a{text-decoration: none;}
 #story .wrap .deco_img img{width: 100%;}
 
 
+        /************ 20220325 - CONTINUACAO **************/
+
+
+/* ***콘텐츠 내부에 암막과 문자를 단계별로 위치시키기****(exemplo)**** */
+/*
+#midEdu1{}
+#midEdu1 .outer{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/menu_2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 20px; /*coloca a sombra com borda*/
+    /*border-radius: 10px;}
+
+#midEdu1 .outer .dark_bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px; /*coloca a letras de dentro com borda*/
+    /*position: relative;
+    color: #fff;
+    /* display: none; [display: none;]ele apaga o espaco em si / o display nao aceita [transition: display 1s;]
+    transition: display 1s; */
+    /*opacity: 0;
+    transition: opacity 1s; /*opacity - aceita o transition - e ele nao apaga o espaco, ele esta la so que transparente*//*}
+
+#midEdu1 .outer:hover .dark_bg{
+    /* display: block;  quando coloca isso o espaco apagado aparece */
+    /*opacity: 1;}
+
+#midEdu1 .outer .dark_bg h3{font-size: 28px;}
+#midEdu1 .outer .dark_bg p{padding-top: 10px;}
+#midEdu1 .outer .dark_bg span{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #f60;}*/
+
+                            /* #Special PART */
+#special{background-color: #ededed;}
+
+                        /* TOP PART - BG */
+#special #top_bg{
+    width: 100%;
+    height: 460px;
+    background-image: url(../img/2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;}
+
+#special #top_bg .dark_bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);}
+
+
+                            /* CONT- PART  */
+
+#special #main_cont{
+    width: 100%;
+    height: 100%;
+    margin-top: -360px;
+    padding: 0 10px;}
+
+#special #main_cont .title_part{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;}
+#special #main_cont .title{
+    font-size: 54px;
+    font-weight: bold;
+    padding: 20px 0;}
+
+#special #main_cont .sub_title{font-size: 16px;}
+
+#special #main_cont .wrap{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 0;}
+
+#special #main_cont .wrap .outer_box{
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;}
+
+#special #main_cont .wrap .outer_box:nth-child(1){
+    background-image: url(../img/menu_1.jpg);
+    width: 750px;} /*360px + 360px + 30px[margin-right]*/
+
+#special #main_cont .wrap .outer_box:nth-child(2){
+    background-image: url(../img/menu_2.jpg);
+    margin-right: 0;}
+
+#special #main_cont .wrap .outer_box:nth-child(3){background-image: url(../img/menu_3.jpg);}
+#special #main_cont .wrap .outer_box:nth-child(4){background-image: url(../img/menu_4.jpg);}
+
+#special #main_cont .wrap .outer_box:nth-child(5){
+    background-image: url(../img/menu_5.jpg);
+    margin-right: 0;}
+
+#special #main_cont .wrap .outer_box .dark_bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 1s;}
+
+#special #main_cont .wrap .outer_box:hover .dark_bg{opacity: 1;}
+
+#special #main_cont .wrap .outer_box .dark_bg h3{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;} /*text-transform:capitalize; - Primeira letra em MAIUSCULO*/
+#special #main_cont .wrap .outer_box .dark_bg p{
+    font-size: 18px;
+    font-weight: lighter;}
+#special #main_cont .wrap .outer_box .dark_bg span{
+    font-size: 28px;
+    color: #f60;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;}
+    
+#special #main_cont .arrow_space{
+    text-align: center;
+    padding-bottom: 60px;}
+
+#special #main_cont .arrow_space a{
+    display: inline-block;
+    height: 19px;}
+
+#special #main_cont .arrow_space a img{display: block;}
+
+/* -------------- midEdu2 (EXEMPLO 2) ---------------------------- */
+/* #midEdu2{}
+#midEdu2 .frame{
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: #aff;
+    font-size: 0;}
+
+#midEdu2 .frame .box{
+    display: inline-block;
+    width: calc(100% / 3 - 20px);
+    height: 280px;
+    margin: 0 10px;
+    background-color: #faa;} */
+
+
+             /* <!--******** #dishes PART ********* --> */
+
+#dishes{
+    background-image: url(../img/3.png);
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 20px;}  
+
+#dishes .wrap{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px; /*모바일에서 좌측과 우측으로 밀착되지 않도록 좌우 여백을 위해 구성*/}
+
+                            /* TITLE_PART */
+#dishes .wrap .title_part{
+    text-align: center;
+    color: #555;
+    padding-bottom: 80px;}
+
+#dishes .wrap .title_part .title{
+    font-size: 54px;
+    line-height: 72px;
+    padding: 20px 0;
+    text-transform: capitalize;}
+
+#dishes .wrap .title_part .sub_title{font-size: 16px;}
+
+                        /* CONT_PART */
+
+#dishes .wrap .cont_part{
+    width: 1160px;
+    margin: 0 auto;}
+
+#dishes .wrap .cont_part .cont_box{}
+#dishes .wrap .cont_part .cont_box .dishesTitle{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;}
+#dishes .wrap .cont_part .cont_box .dishesTitle h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;}
+
+
+#dishes .wrap .cont_part .cont_box .menu{
+    width: 100%;
+    position: relative;
+    color: #555;
+    padding: 0 15px;
+    font-size: 0;}
+
+#dishes .wrap .cont_part .cont_box .menu .left{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 15px;}
+
+#dishes .wrap .cont_part .cont_box .menu .left .theDishe{padding-bottom: 20px;}
+
+#dishes .wrap .cont_part .cont_box .menu .left .theDishe h2{
+    font-size: 20px;
+    font-weight: bold;}
+#dishes .wrap .cont_part .cont_box .menu .left .theDishe p{
+    font-size: 16px;}
+#dishes .wrap .cont_part .cont_box .menu .left .theDishe span{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f60;}
+
+
+
+#dishes .wrap .cont_part .cont_box .menu .right{
+    width: 50%;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: top;}
+#dishes .wrap .cont_part .cont_box .menu .right .theDishe{
+    padding-bottom: 20px;}
+
+#dishes .wrap .cont_part .cont_box .menu .right .theDishe h2{
+    font-size: 20px;
+    font-weight: bold;}
+#dishes .wrap .cont_part .cont_box .menu .right .theDishe p{
+    font-size: 16px;}
+#dishes .wrap .cont_part .cont_box .menu .right .theDishe span{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f60;}
+
+
+#dishes .wrap .cont_part .cont_box .menu .centerLine{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #cfcfcf;
+    transform: translateX(-50%);}
+    
+
+#dishes .wrap .cont_part .arrow_space{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;}
+
+#dishes .wrap .cont_part .arrow_space a{
+    display: inline-block;
+    height: 19px;}
+
+#dishes .wrap .cont_part .arrow_space a img{display: block;}
+
+
+
+
