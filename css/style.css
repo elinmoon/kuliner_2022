@@ -537,5 +537,266 @@ a{text-decoration: none;}
 #dishes .wrap .cont_part .arrow_space a img{display: block;}
 
 
+                                    /* SERVICE PART */
+
+#service{background-color: #ededed;}
+#service .wrap{
+    width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: #555;}
+
+#service .wrap .title_part{
+    padding-top: 60px;
+    padding-bottom: 80px;}
+
+#service .wrap .title_part h2{
+    font-size: 54px;
+    line-height: 72px;
+    padding-bottom: 20px;}
+
+#service .wrap .title_part p{font-size: 16px; text-transform: uppercase;}
+
+#service .wrap .content{font-size: 0;}
+
+#service .wrap .content > div{
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    background-color: #fee;
+    margin: 0 10px;
+    padding: 40px;
+    font-size: 16px;
+    transition: transform 1s;}
+
+#service .wrap .content > div .img_part{
+    padding-top: 40px;
+    background-size: cover;
+    background-position: 50% 50%;}
+
+#service .wrap .content > div:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #ff9999;}
 
 
+#service .wrap .content > div .txt_part{}
+
+#service .wrap .content > div .txt_part .theService{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;}
+
+#service .wrap .content > div .txt_part .service_txt{font-size: 16px;}
+
+
+#service .wrap .arrow_space{padding: 60px 0;}
+
+
+
+                                /* SUBSCRIVE PART */
+
+#offer{font-size: 0;}
+#offer .bg_part{
+    width: 100%;
+    height: 460px;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;}
+
+#offer .bg_part .bg_dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);}
+
+#offer .wrap{
+    width: 1160px;
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: table;}
+
+#offer .wrap .content{text-align: center; display: table-cell; vertical-align: middle;}
+#offer .wrap .content .title_part{
+    color: #fff;}
+
+#offer .wrap .content .title_part .title{
+    padding: 20px 0;
+    font-size: 54px;}
+
+#offer .wrap .content .title_part .sub_title{
+    padding-bottom: 20px;
+    font-size: 16px;}
+
+#offer .wrap .content .search{
+    position: relative;
+    width: 740px;
+    margin: 0 auto;}
+
+#offer .wrap .content .search input{
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    border-color: #f60;
+    color: #777;
+    font-size: 20px;
+    padding: 0 20px;}
+
+#offer .wrap .content .search button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 20px;}
+
+#offer .wrap .content .search button i{
+    color: #f60;
+    border-image-outset: 40px;
+    font-size: 20px;}
+
+
+    
+                                        /* 맵 연동하기 */
+#register{
+    width: 100%;
+    height: auto;
+    background-color: #ededed;}
+#register .wrap{
+    width: 1160px;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 0;}
+
+#register .wrap .left{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 400px;
+    padding: 20px;}
+
+#register .wrap .left #map_g{
+    height: 100%; /*360px*/}
+
+#register .wrap .right{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 400px;
+    padding: 20px;}
+    
+#register .wrap .right .title{
+    padding: 20px 0;
+    text-align: center;}
+
+#register .wrap .right .title h2{font-size: 54px; line-height: 72px; color: #555;}
+
+#register .wrap .right .cont{}
+#register .wrap .right .cont .input_line{padding-bottom: 8px;}
+
+#register .wrap .right .cont .input_line input{
+    width: 100%;
+    height: 35px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline-color: #f60;}
+
+#register .wrap .right .cont input[type="checkbox"]{height: 12px;}
+#register .wrap .right .cont span{font-size: 16px; color: #555;}
+
+#register .wrap .right .cont .btn{text-align: right;}
+#register .wrap .right .cont .btn input{
+    width: 240px;
+    height: 41px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;}
+
+#register .wrap .right .cont .btn input:hover{background-color: #d40;}
+
+
+
+
+
+
+/* #FOOTER PART */
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    text-align: center;}
+#footer .wrap{
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 10px;}
+
+#footer .wrap .sns{}
+#footer .wrap .sns ul{font-size: 0;}
+#footer .wrap .sns ul li{
+    display: inline-block;
+    margin: 10px;}
+#footer .wrap .sns ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 38px;
+    border-radius: 50%;}
+    
+#footer .wrap .sns ul li:hover a{
+    color: #f60;
+    border: 1px solid #f60;}
+
+#footer .wrap .f_logo{padding: 10px 0; font-size: 0;}
+#footer .wrap .f_logo img{}
+
+#footer .wrap p{
+    font-size: 14px;
+    padding: 14px 0;
+    color: #fff;}
+
+
+
+/* #top_Btn [상단으로 이동] 20220328 */
+#top_Btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;}
+
+#top_Btn a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f60;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);}
+
+
+
+
+
+/* 구글맵 연동하기 [중간교육] - 20220328*/
+
+/* #midEdu3 #map_g{
+    width: 500px;
+    height: 400px;
+    background-color: #aaf;} */
